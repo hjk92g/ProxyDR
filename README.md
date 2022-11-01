@@ -20,7 +20,7 @@ One may download CIFAR-100 dataset from https://www.cs.toronto.edu/~kriz/cifar.h
 One can download NABirds dataset from https://dl.allaboutbirds.org/nabirds.
 
 ## Train
-Run `...`
+For training of plankton datasets, run `python train.py --GPU [GPU_NUMBER(S)] --dataset [DATASET_NAME] --method [METHODNAME] --distance [DISTANCE] --size_inform --use_val --seed [SEED_NUMBER] --[TRAINING_OPTION]`.
 
 ## Evaluation
 Run `...`
