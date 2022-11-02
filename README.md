@@ -30,7 +30,7 @@ For training of NABird dataset, run `python train_nabirds.py --GPU [GPU_NUMBER(S
 Softmax: , NormFace: , ProxyDR:, CORR loss: 
 
 
-### Training options and the corresponding [TRAINING_OPTION] names
+### Training options and the corresponding `[TRAINING_OPTION]` names
 Standard: default (without any --[TRAINING_OPTION]), EMA: --ema, Dynamic: --dynamic, MDS (multidimensional scaling): --mds_W
 
 ### Code examples
