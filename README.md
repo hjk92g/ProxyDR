@@ -30,8 +30,8 @@ For training of CIFAR100 dataset, run `python train_cifar100.py --GPU [GPU_NUMBE
 
 For training of NABird dataset, run `python train_nabirds.py --GPU [GPU_NUMBER(S)] --method [METHODNAME] --distance [DISTANCE] --use_val --seed [SEED_NUMBER] --[TRAINING_OPTION]`.
 
- - **Methods** <br>
- Softmax: , NormFace: , ProxyDR:, CORR loss: 
+ - **Methods** (`[METHODNAME]`)<br>
+ Softmax: `softmax`, NormFace: `normface`, ProxyDR: default `DR`, CORR loss: `--method DR --mds_W --CORR`
 
  - **Training options and the corresponding `[TRAINING_OPTION]` names** <br>
  Standard: default (without any --[TRAINING_OPTION]), EMA: `--ema`, Dynamic (scale factor): `--dynamic`, MDS (multidimensional scaling): `--mds_W`
@@ -40,6 +40,8 @@ For training of NABird dataset, run `python train_nabirds.py --GPU [GPU_NUMBER(S
 For example, to train NormFace model on MicroS dataset with standard option (also GPU:0, seed: 1, use Euclidean distance, size information and validation), run `python train.py --GPU 0 --dataset MicroS --method SD --distance euc --size_inform --seed 1 --use_val`
 
 For example, to train ProxyDR model on MicroS dataset with MDS and dynamic options (also GPU:0, seed: 1, use Euclidean distance, size information and validation), run `python train.py --GPU 0 --dataset MicroS --method DR --distance euc --size_inform --seed 1 --use_val --mds_W --dynamic`
+
+For example, to train CORR model (requires MDS) on MicroS dataset  (also GPU:0, seed: 1, use Euclidean distance, size information and validation), run `python train.py --GPU 0 --dataset MicroS --method DR --distance euc --size_inform --seed 1 --use_val --mds_W --CORR`
 
 ## Evaluation
 Run `...`
