@@ -3,7 +3,11 @@ Code for the paper ["Inspecting class hierarchies of classification-based metric
 
 ## Environment
  - Python3
- - Pytorch (http://pytorch.org/) (version ...)
+ - PyTorch (http://pytorch.org/) (gpytorch 1.4.1)
+ - NumPy (version 1.19.5)
+ - Pandas (version 1.0.5)
+ - Scikit-learn (version 0.24.2)
+ - SciPy (version 1.5.0)
 
 ## Preparing datasets
 ### Three plankton datasets
