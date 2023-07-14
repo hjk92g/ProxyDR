@@ -1,5 +1,5 @@
 # Inspecting_Hierarchies_ML
-Code for paper the "Inspecting class hierarchies of classification-based metric learning models"
+Code for the paper ["Inspecting class hierarchies of classification-based metric learning models"](https://arxiv.org/abs/2301.11065)
 
 ## Environment
  - Python3
@@ -7,7 +7,7 @@ Code for paper the "Inspecting class hierarchies of classification-based metric 
 
 ## Preparing datasets
 ### Three plankton datasets
-Small microplankton (MicroS), Large microplankton (MicroL), Mesozooplankton (MesoZ)...
+Can be downloaded from [Small microplankton (MicroS)](https://doi.org/10.21335/NMDC-2102309336), [Large microplankton (MicroL)](https://doi.org/10.21335/NMDC-573815973), and [Mesozooplankton (MesoZ)](https://doi.org/10.21335/NMDC-1805578916).
 
 
 ### CIFAR-100
