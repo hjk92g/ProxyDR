@@ -31,7 +31,7 @@ Softmax: , NormFace: , ProxyDR:, CORR loss:
 
 
 ### Training options and the corresponding `[TRAINING_OPTION]` names
-Standard: default (without any --[TRAINING_OPTION]), EMA: --ema, Dynamic: --dynamic, MDS (multidimensional scaling): --mds_W
+Standard: default (without any --[TRAINING_OPTION]), EMA: --ema, Dynamic (scale factor): --dynamic, MDS (multidimensional scaling): --mds_W
 
 ### Code examples
 For example, to train NormFace model on MicroS dataset with standard option (also GPU:0, seed: 1, use Euclidean distance, size information and validation), run `python train.py --GPU 0 --dataset MicroS --method SD --distance euc --size_inform --seed 1 --use_val`
