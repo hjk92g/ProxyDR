@@ -11,7 +11,7 @@ Code for the paper ["Inspecting class hierarchies of classification-based metric
 
 ## Preparing datasets
 ### Three plankton datasets
-Can be downloaded from [Small microplankton (MicroS)](https://doi.org/10.21335/NMDC-2102309336), [Large microplankton (MicroL)](https://doi.org/10.21335/NMDC-573815973), and [Mesozooplankton (MesoZ)](https://doi.org/10.21335/NMDC-1805578916).
+You can be downloaded these from [Small microplankton (MicroS)](https://doi.org/10.21335/NMDC-2102309336), [Large microplankton (MicroL)](https://doi.org/10.21335/NMDC-573815973), and [Mesozooplankton (MesoZ)](https://doi.org/10.21335/NMDC-1805578916).
 
 
 ### CIFAR-100
@@ -30,12 +30,11 @@ For training of CIFAR100 dataset, run `python train_cifar100.py --GPU [GPU_NUMBE
 
 For training of NABird dataset, run `python train_nabirds.py --GPU [GPU_NUMBER(S)] --method [METHODNAME] --distance [DISTANCE] --use_val --seed [SEED_NUMBER] --[TRAINING_OPTION]`.
 
-### Methods 
-Softmax: , NormFace: , ProxyDR:, CORR loss: 
+ - **Methods** <br>
+ Softmax: , NormFace: , ProxyDR:, CORR loss: 
 
-
-### Training options and the corresponding `[TRAINING_OPTION]` names
-Standard: default (without any --[TRAINING_OPTION]), EMA: --ema, Dynamic (scale factor): --dynamic, MDS (multidimensional scaling): --mds_W
+ - **Training options and the corresponding `[TRAINING_OPTION]` names** <br>
+ Standard: default (without any --[TRAINING_OPTION]), EMA: `--ema`, Dynamic (scale factor): `--dynamic`, MDS (multidimensional scaling): `--mds_W`
 
 ### Code examples
 For example, to train NormFace model on MicroS dataset with standard option (also GPU:0, seed: 1, use Euclidean distance, size information and validation), run `python train.py --GPU 0 --dataset MicroS --method SD --distance euc --size_inform --seed 1 --use_val`
