@@ -11,7 +11,7 @@ Code for the paper ["Inspecting class hierarchies of classification-based metric
 
 ## Preparing datasets
 ### Three plankton datasets
-You can be downloaded these from [Small microplankton (MicroS)](https://doi.org/10.21335/NMDC-2102309336), [Large microplankton (MicroL)](https://doi.org/10.21335/NMDC-573815973), and [Mesozooplankton (MesoZ)](https://doi.org/10.21335/NMDC-1805578916). These datasets should be inside a folder named "plankton_data".
+You can be downloaded these from [Small microplankton (MicroS)](https://doi.org/10.21335/NMDC-2102309336), [Large microplankton (MicroL)](https://doi.org/10.21335/NMDC-573815973), and [Mesozooplankton (MesoZ)](https://doi.org/10.21335/NMDC-1805578916). These datasets should be inside a folder named "plankton_data" (you need to make this folder).
 
 ### CIFAR-100
 We used CIFAR-100 from torchvision https://pytorch.org/vision/stable/datasets.html.
