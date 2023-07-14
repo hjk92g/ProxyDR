@@ -44,6 +44,9 @@ For example, to train ProxyDR model on MicroS dataset with MDS and dynamic optio
 
 For example, to train CORR model (requires MDS) on MicroS dataset  (also GPU:0, seed: 1, use Euclidean distance, size information and validation), run `python train.py --GPU 0 --dataset MicroS --method DR --distance euc --size_inform --seed 1 --use_val --mds_W --CORR`
 
+### Training whole models (replicating experiments in our paper)
+If you want to replicate the experiments, instead of typing each training setting, you can run `train_MicroS_whole_models.sh`, `train_MicroL_whole_models.sh`, `train_MesoZ_whole_models.sh`, `train_CIFAR100_whole_models.sh`, and `train_NABirds_whole_models.sh`. (You may want to change GPU number. Values might be differ due to randomness.)
+
 ## Evaluation
 Run `...`
 
