@@ -11,8 +11,7 @@ Code for the paper ["Inspecting class hierarchies of classification-based metric
 
 ## Preparing datasets
 ### Three plankton datasets
-You can be downloaded these from [Small microplankton (MicroS)](https://doi.org/10.21335/NMDC-2102309336), [Large microplankton (MicroL)](https://doi.org/10.21335/NMDC-573815973), and [Mesozooplankton (MesoZ)](https://doi.org/10.21335/NMDC-1805578916).
-
+You can be downloaded these from [Small microplankton (MicroS)](https://doi.org/10.21335/NMDC-2102309336), [Large microplankton (MicroL)](https://doi.org/10.21335/NMDC-573815973), and [Mesozooplankton (MesoZ)](https://doi.org/10.21335/NMDC-1805578916). These datasets should be inside a folder named "plankton_data".
 
 ### CIFAR-100
 We used CIFAR-100 from torchvision https://pytorch.org/vision/stable/datasets.html.
@@ -24,6 +23,8 @@ One may download CIFAR-100 dataset from https://www.cs.toronto.edu/~kriz/cifar.h
 One can download NABirds dataset from https://dl.allaboutbirds.org/nabirds.
 
 ## Train
+Before training, in the `config.json` file, you need to put where the "plankton_data" folder is located (`DATA_init`) and where this repogistory (Inspecting_Hierarchies_ML) is located (`FOLDER_init`).
+
 For training of plankton datasets, run `python train.py --GPU [GPU_NUMBER(S)] --dataset [DATASET_NAME] --method [METHODNAME] --distance [DISTANCE] --size_inform --use_val --seed [SEED_NUMBER] --[TRAINING_OPTION]`.
 
 For training of CIFAR100 dataset, run `python train_cifar100.py --GPU [GPU_NUMBER(S)] --method [METHODNAME] --distance [DISTANCE] --use_val --seed [SEED_NUMBER] --[TRAINING_OPTION]`.
@@ -50,6 +51,6 @@ Run `...`
 The training and evaludation results will be recorded in `./record/`
 
 ## References 
-
+Dynamic option implementation is modified from https://github.com/4uiiurz1/pytorch-adacos/blob/master/metrics.py.
 
 
