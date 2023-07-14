@@ -20,7 +20,7 @@ One may download CIFAR-100 dataset from https://www.cs.toronto.edu/~kriz/cifar.h
 
 
 ### NABirds
-One can download NABirds dataset from https://dl.allaboutbirds.org/nabirds.
+One can download NABirds dataset from https://dl.allaboutbirds.org/nabirds. You can resize ........
 
 ## Train
 Before training, in the `config.json` file, you need to put where the "plankton_data" folder is located (`DATA_init`) and where this repogistory (Inspecting_Hierarchies_ML) is located (`FOLDER_init`).
