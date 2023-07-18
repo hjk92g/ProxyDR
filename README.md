@@ -8,6 +8,7 @@ Code for the paper ["Inspecting class hierarchies of classification-based metric
  - Pandas (version 1.0.5)
  - Scikit-learn (version 0.24.2)
  - SciPy (version 1.5.0)
+ - Biopython (version 1.79)
 
 ## Preparing datasets
 ### Three plankton datasets
