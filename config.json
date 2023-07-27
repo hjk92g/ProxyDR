@@ -1,0 +1,5 @@
+{
+  "_comment": "===== TRAINING CONFIGURATION =====",
+  "DATA_init": "/DATA_init/",
+  "FOLDER_init": "/FOLDER_init/"
+}
