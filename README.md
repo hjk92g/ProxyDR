@@ -52,6 +52,9 @@ If you want to replicate the experiments, instead of typing each training settin
 ## Evaluation
 Run `...`
 
+### Evaluating whole models (replicating experiments in our paper)
+If you want to replicate the experiments, instead of typing each evaluation setting, you can run `eval_MicroS_whole_models.sh`, `eval_MicroL_whole_models.sh`, `eval_MesoZ_whole_models.sh`, `eval_CIFAR100_whole_models.sh`, and `eval_NABirds_whole_models.sh`. (You may want to change GPU number. Values might be differ due to randomness.)
+
 ## Results
 The training and evaludation results will be recorded in `./record/`
 
