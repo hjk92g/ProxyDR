@@ -20,12 +20,12 @@ We used CIFAR-100 from torchvision https://pytorch.org/vision/stable/datasets.ht
 One may download CIFAR-100 dataset from https://www.cs.toronto.edu/~kriz/cifar.html (CIFAR-100 python version). 
 
 ### NABirds
-One can download NABirds dataset from https://dl.allaboutbirds.org/nabirds. You can resize ........
-You need to change path names in `nabirds_cls.csv`, `nabirds_cls2.csv`, and `nabirds_info.csv` such that images are located in the written path (you will only need to change "DATA_init" to the corresponding folder name in each line).
+One can download NABirds dataset from https://dl.allaboutbirds.org/nabirds. You need to change path names in `nabirds_cls.csv`, `nabirds_cls2.csv`, and `nabirds_info.csv` such that images are located in the written path (you will only need to change "DATA_init" to the corresponding folder name in each line).
+You need to run `Prepare_NABirds.ipynb` after properly changing the `config.json` file as explained in the train section.
 
 
 ## Train
-Before training, in the `config.json` file, you need to put where the "plankton_data" folder is located (`DATA_init`) and where this repogistory (Inspecting_Hierarchies_ML) is located (`FOLDER_init`).
+Before training, in the `config.json` file, you need to put where the "plankton_data" and "nabirds" folders are located (`DATA_init`) and where this repogistory (Inspecting_Hierarchies_ML) is located (`FOLDER_init`).
 
 For training of plankton datasets, run `python train.py --GPU [GPU_NUMBER(S)] --dataset [DATASET_NAME] --method [METHODNAME] --distance [DISTANCE] --size_inform --use_val --seed [SEED_NUMBER] --[TRAINING_OPTION]`.
 
