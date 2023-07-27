@@ -1,0 +1,53 @@
+Class,Path,Number
+Polychatea sp1,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Annelida/Polychaeta/Polychatea sp1,0
+Sagittoidea sp1,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Chaetognata/Sagittoidea/Sagittoidea sp1,1
+Bythotiaridae spp,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Cnidaria/Hydrozoa/Bythotiaridae/Bythotiaridae spp,2
+Undetermined hydrozoa,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Cnidaria/Hydrozoa/Undetermined hydrozoa,3
+Cladocera sp1,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Branchiopoda/Cladocera/Cladocera sp1,4
+Evadne spp,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Branchiopoda/Cladocera/Evadne spp,5
+Calanoida spp 1-3,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Copepoda/Calanoida/Calanoida 1-3/Calanoida spp 1-3,6
+Calanus spp,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Copepoda/Calanoida/Calanoida 4-6/Calanus spp,7
+Centropages sp,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Copepoda/Calanoida/Calanoida 4-6/Centropages sp,8
+Metridia sp,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Copepoda/Calanoida/Calanoida 4-6/Metridia sp,9
+Microcalanus spp,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Copepoda/Calanoida/Calanoida 4-6/Microcalanus spp,10
+Pseudo-Paracalanus spp,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Copepoda/Calanoida/Calanoida 4-6/Pseudo-Paracalanus spp,11
+Temora spp,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Copepoda/Calanoida/Calanoida 4-6/Temora spp,12
+Oithona sp,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Copepoda/Cyclopoida/Oithona/Oithona sp,13
+Undetermined copepodites,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Copepoda/Undetermined copepodites,14
+Apical small,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Copepoda/Undetermined copepods/Apical copepod/Apical small,15
+Multiple copepods,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Copepoda/Undetermined copepods/Multiple copepods,16
+Euphausiaceae calyptopsis,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Malacostraca/Euphausiacea/Euphausiaceae calyptopsis,17
+Euphausiaceae egg,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Malacostraca/Euphausiacea/Euphausiaceae egg,18
+Euphausiaceae furcilla,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Malacostraca/Euphausiacea/Euphausiaceae furcilla,19
+Ostracoda sp1,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Ostracoda/Ostracoda sp1,20
+Ostracoda sp2,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Ostracoda/Ostracoda sp2,21
+Nauplii 1-3,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Undetermined Nauplii/Nauplii 1-3,22
+Nauplii 4-6,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Crustacea/Undetermined Nauplii/Nauplii 4-6,23
+Echinodermata spp,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Echinodermata/Echinodermata spp,24
+Pteropod sp1,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Mollusca/Gastropoda/Pteropoda/Pteropod sp1,25
+Undetermined egg1,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Other/Undetermined egg/Undetermined egg1,26
+Appendicularia sp1,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Tunicata/Appendicularia/Appendicularia sp1,27
+Maurolicus muelleri,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Vertebrata/Teleostei egg/Maurolicus/Maurolicus muelleri,28
+Undet teleostei egg,/DATA_init/plankton_datasets/MesoZ/Mesozooplankton/Vertebrata/Teleostei egg/Undet teleostei egg,29
+dry cell bubbles,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/artifacts/bubbles/dry cell bubbles,30
+l bubbles,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/artifacts/bubbles/l bubbles,31
+s bubbles,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/artifacts/bubbles/s bubbles,32
+dark line,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/artifacts/dark line,33
+dark s background,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/artifacts/dark s background,34
+small shadows,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/artifacts/small shadows,35
+debris 3,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/debris and pom/debris/debris 3,36
+debris l,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/debris and pom/debris/debris l,37
+debris s,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/debris and pom/debris/debris s,38
+empty shell,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/debris and pom/empty shell,39
+long pom,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/debris and pom/pom/long pom,40
+dlpom,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/debris and pom/pom/pom l/dlpom,41
+pom s,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/debris and pom/pom/pom s,42
+threadlike l,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/debris and pom/threads/threadlike l,43
+threadlike s,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/debris and pom/threads/threadlike s,44
+ceratium,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/protists/ceratium,45
+ceratium aggregate,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/protists/ceratium aggregate,46
+diatoms,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/protists/diatoms,47
+unident part,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/undetermined particles/unident part,48
+unidentified1,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/undetermined particles/unidentified1,49
+unidentified2,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/undetermined particles/unidentified2,50
+unidentified3,/DATA_init/plankton_datasets/MesoZ/nonzooplankton/undetermined particles/unidentified3,51

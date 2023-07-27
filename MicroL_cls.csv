@@ -1,0 +1,103 @@
+Class,Path,Number
+Copepoda sp1,/DATA_init/plankton_datasets/MicroL/Mesozooplankton/Crustacea/Copepoda/Copepoda sp1,0
+Copepoda sp2,/DATA_init/plankton_datasets/MicroL/Mesozooplankton/Crustacea/Copepoda/Copepoda sp2,1
+Copepoda spp,/DATA_init/plankton_datasets/MicroL/Mesozooplankton/Crustacea/Copepoda/Copepoda spp,2
+Oithona sp,/DATA_init/plankton_datasets/MicroL/Mesozooplankton/Crustacea/Copepoda/Oithona sp,3
+Temora sp,/DATA_init/plankton_datasets/MicroL/Mesozooplankton/Crustacea/Copepoda/Temora sp,4
+Nauplius spp1,/DATA_init/plankton_datasets/MicroL/Mesozooplankton/Crustacea/Crustacea incertae sedis/Nauplius spp/Nauplius spp1,5
+Nauplius spp2,/DATA_init/plankton_datasets/MicroL/Mesozooplankton/Crustacea/Crustacea incertae sedis/Nauplius spp/Nauplius spp2,6
+Nauplius spp4,/DATA_init/plankton_datasets/MicroL/Mesozooplankton/Crustacea/Crustacea incertae sedis/Nauplius spp/Nauplius spp4,7
+Nauplius spp5,/DATA_init/plankton_datasets/MicroL/Mesozooplankton/Crustacea/Crustacea incertae sedis/Nauplius spp/Nauplius spp5,8
+Nauplius spp6,/DATA_init/plankton_datasets/MicroL/Mesozooplankton/Crustacea/Crustacea incertae sedis/Nauplius spp/Nauplius spp6,9
+Pediveliger,/DATA_init/plankton_datasets/MicroL/Mesozooplankton/Mollusca/Gastropoda/Gastroppoda spp/Pediveliger,10
+Trochophore larvae,/DATA_init/plankton_datasets/MicroL/Mesozooplankton/Mollusca/Gastropoda/Gastroppoda spp/Trochophore larvae,11
+Unknown gastropoda,/DATA_init/plankton_datasets/MicroL/Mesozooplankton/Mollusca/Gastropoda/Gastroppoda spp/Unknown gastropoda,12
+Veliger larvae,/DATA_init/plankton_datasets/MicroL/Mesozooplankton/Mollusca/Gastropoda/Gastroppoda spp/Veliger larvae,13
+Undetrermined egg,/DATA_init/plankton_datasets/MicroL/Mesozooplankton/Undetrermined egg,14
+Choreotrichida spp,/DATA_init/plankton_datasets/MicroL/Microplankton/Ciliophora/Oligotrichea/Choreotrichida/Choreotrichida spp,15
+Eutintinnus apertus,/DATA_init/plankton_datasets/MicroL/Microplankton/Ciliophora/Oligotrichea/Choreotrichida/Eutintinnus/Eutintinnus apertus,16
+Favella sp,/DATA_init/plankton_datasets/MicroL/Microplankton/Ciliophora/Oligotrichea/Choreotrichida/Favella/Favella sp,17
+Leegaardiella sp,/DATA_init/plankton_datasets/MicroL/Microplankton/Ciliophora/Oligotrichea/Choreotrichida/Leegardiella/Leegaardiella sp,18
+Lohmanniella oviformis,/DATA_init/plankton_datasets/MicroL/Microplankton/Ciliophora/Oligotrichea/Choreotrichida/Lohmanniella/Lohmanniella oviformis,19
+Strobilidium sp,/DATA_init/plankton_datasets/MicroL/Microplankton/Ciliophora/Oligotrichea/Choreotrichida/Strobilidium/Strobilidium sp,20
+Strombidium conicum,/DATA_init/plankton_datasets/MicroL/Microplankton/Ciliophora/Oligotrichea/Oligotrichida/Strombidium/Strombidium conicum,21
+Strombidium emergens,/DATA_init/plankton_datasets/MicroL/Microplankton/Ciliophora/Oligotrichea/Oligotrichida/Strombidium/Strombidium emergens,22
+Strombidium epidemum,/DATA_init/plankton_datasets/MicroL/Microplankton/Ciliophora/Oligotrichea/Oligotrichida/Strombidium/Strombidium epidemum,23
+Strombidium lynni,/DATA_init/plankton_datasets/MicroL/Microplankton/Ciliophora/Oligotrichea/Oligotrichida/Strombidium/Strombidium lynni,24
+Strombidium sp2,/DATA_init/plankton_datasets/MicroL/Microplankton/Ciliophora/Oligotrichea/Oligotrichida/Strombidium/Strombidium sp2,25
+Strombidium_sp1,/DATA_init/plankton_datasets/MicroL/Microplankton/Ciliophora/Oligotrichea/Oligotrichida/Strombidium/Strombidium_sp1,26
+Tontonia caudata,/DATA_init/plankton_datasets/MicroL/Microplankton/Ciliophora/Oligotrichea/Oligotrichida/Tontonia/Tontonia caudata,27
+Tontonia sp,/DATA_init/plankton_datasets/MicroL/Microplankton/Ciliophora/Oligotrichea/Oligotrichida/Tontonia/Tontonia sp,28
+Tiarina fusus,/DATA_init/plankton_datasets/MicroL/Microplankton/Ciliophora/Oligotrichea/Prostomatea/Tiarina/Tiarina fusus,29
+Tiarina sp,/DATA_init/plankton_datasets/MicroL/Microplankton/Ciliophora/Oligotrichea/Prostomatea/Tiarina/Tiarina sp,30
+Lprotists,/DATA_init/plankton_datasets/MicroL/Microplankton/Incertae sedis/Undetermined non-diatom/Lprotists,31
+Mprotists,/DATA_init/plankton_datasets/MicroL/Microplankton/Incertae sedis/Undetermined non-diatom/Mprotists,32
+Sprotists,/DATA_init/plankton_datasets/MicroL/Microplankton/Incertae sedis/Undetermined non-diatom/Sprotists,33
+XLprotists,/DATA_init/plankton_datasets/MicroL/Microplankton/Incertae sedis/Undetermined non-diatom/XLprotists,34
+XSprotists,/DATA_init/plankton_datasets/MicroL/Microplankton/Incertae sedis/Undetermined non-diatom/XSprotists,35
+Xsprotist,/DATA_init/plankton_datasets/MicroL/Microplankton/Incertae sedis/Undetermined non-diatom/Xsprotist,36
+Dinophyceae sp1,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Dinophyceae incertae sedis/Dinophyceae spp/Dinophyceae sp1,37
+Dinophyceae sp2,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Dinophyceae incertae sedis/Dinophyceae spp/Dinophyceae sp2,38
+Dinophysis spp,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Dinophysiales/Dinophysis/Dinophysis spp,39
+Dinophysis tripos,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Dinophysiales/Dinophysis/Dinophysis tripos,40
+Tripos furca,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Gonyaulacales/Tripos/Tripos furca,41
+Tripos furca duplets,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Gonyaulacales/Tripos/Tripos furca/Tripos furca duplets,42
+Tripos fusus,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Gonyaulacales/Tripos/Tripos fusus,43
+Tripos lineatum,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Gonyaulacales/Tripos/Tripos lineatum,44
+Tripos longipes,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Gonyaulacales/Tripos/Tripos longipes,45
+Tripos macroceros,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Gonyaulacales/Tripos/Tripos macroceros,46
+Tripos muelleri,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Gonyaulacales/Tripos/Tripos muelleri,47
+Tripos sp,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Gonyaulacales/Tripos/Tripos sp,48
+Akashiwo sanguineum,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Gymondiniales/Akashiwo/Akashiwo sanguineum,49
+Gyrodinium spp,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Gymondiniales/Gyrodinium/Gyrodinium spp,50
+Noctiluca scintilans,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Noctilucales/Noctiluca/Noctiluca scintilans,51
+LProtoperidinium,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Peridiniales/Protoperidinium/Protoperidinium spp/LProtoperidinium,52
+Protoperidinium apical,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Peridiniales/Protoperidinium/Protoperidinium spp/Protoperidinium apical/Protoperidinium apical,53
+SProtoperidinium,/DATA_init/plankton_datasets/MicroL/Microplankton/Myzozoa/Dinophyceae/Peridiniales/Protoperidinium/Protoperidinium spp/SProtoperidinium,54
+Bacillariophyceae sp1,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Bacillariophyceae incertae sedis/Bacillariophyceae spp/Bacillariophyceae sp1,55
+Bacillariophyceae sp2,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Bacillariophyceae incertae sedis/Bacillariophyceae spp/Bacillariophyceae sp2,56
+Bacillariophyceae sp3,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Bacillariophyceae incertae sedis/Bacillariophyceae spp/Bacillariophyceae sp3,57
+Bacillariophyceae spp1,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Bacillariophyceae incertae sedis/Bacillariophyceae spp/Bacillariophyceae spp1,58
+Bacillariophyceae spp2,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Bacillariophyceae incertae sedis/Bacillariophyceae spp/Bacillariophyceae spp2,59
+Bacillariophyceae spp4,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Bacillariophyceae incertae sedis/Bacillariophyceae spp/Bacillariophyceae spp4,60
+Bacillariophyceae spp5,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Bacillariophyceae incertae sedis/Bacillariophyceae spp/Bacillariophyceae spp5,61
+Bacillariophyceae spp6,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Bacillariophyceae incertae sedis/Bacillariophyceae spp/Bacillariophyceae spp6,62
+Bacillariophyceae spp7,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Bacillariophyceae incertae sedis/Bacillariophyceae spp/Bacillariophyceae spp7,63
+Bacillariophyceae spp8,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Bacillariophyceae incertae sedis/Bacillariophyceae spp/Bacillariophyceae spp8,64
+Chaetoceros socialis,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Chaetoceros/Chaetoceros socialis,65
+Chaetoceros spp1,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Chaetoceros/Chaetoceros spp1,66
+Chaetoceros spp3,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Chaetoceros/Chaetoceros spp3,67
+Coscinodiscus spp,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Coscinodiscus/Coscinodiscus spp,68
+Guinardia flaccida,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Guinardia/Guinardia flaccida,69
+Proboscia indica,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Proboscia/Proboscia indica,70
+Skeletonema spp,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Skeletonema/Skeletonema spp,71
+Thalassiosira single,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Thalassiosira/Thalassiosira spp/Thalassiosira single,72
+Thalassiosira sp1,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Thalassiosira/Thalassiosira spp/Thalassiosira sp1,73
+Thalassiosira sp2,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Bacillariophyceae/Thalassiosira/Thalassiosira spp/Thalassiosira sp2,74
+Dictyocha speculum,/DATA_init/plankton_datasets/MicroL/Microplankton/Ochrophyta/Dicthyophyceae/Dictyocha/Dictyocha speculum,75
+background lugol,/DATA_init/plankton_datasets/MicroL/nonplankton/artifacts/background/background lugol,76
+dry background,/DATA_init/plankton_datasets/MicroL/nonplankton/artifacts/background/dry background,77
+background dirtyl,/DATA_init/plankton_datasets/MicroL/nonplankton/artifacts/background/large background/background dirtyl,78
+background dirtys,/DATA_init/plankton_datasets/MicroL/nonplankton/artifacts/background/large background/background dirtys,79
+backgroundL,/DATA_init/plankton_datasets/MicroL/nonplankton/artifacts/background/large background/backgroundL,80
+dirty background m,/DATA_init/plankton_datasets/MicroL/nonplankton/artifacts/background/large background/dirty background m,81
+light background,/DATA_init/plankton_datasets/MicroL/nonplankton/artifacts/background/large background/light background,82
+medium background,/DATA_init/plankton_datasets/MicroL/nonplankton/artifacts/background/medium background,83
+small background,/DATA_init/plankton_datasets/MicroL/nonplankton/artifacts/background/small background,84
+lbubbleshalf,/DATA_init/plankton_datasets/MicroL/nonplankton/artifacts/bubbles/lbubbleshalf,85
+sbubbles,/DATA_init/plankton_datasets/MicroL/nonplankton/artifacts/bubbles/sbubbles,86
+nano duplets,/DATA_init/plankton_datasets/MicroL/nonplankton/artifacts/nano duplets,87
+scratch,/DATA_init/plankton_datasets/MicroL/nonplankton/artifacts/scratch,88
+shadows,/DATA_init/plankton_datasets/MicroL/nonplankton/artifacts/shadows,89
+yellow empty,/DATA_init/plankton_datasets/MicroL/nonplankton/artifacts/yellow image/yellow empty,90
+yellow large,/DATA_init/plankton_datasets/MicroL/nonplankton/artifacts/yellow image/yellow large,91
+yellow sspheres,/DATA_init/plankton_datasets/MicroL/nonplankton/artifacts/yellow image/yellow sspheres,92
+fibers,/DATA_init/plankton_datasets/MicroL/nonplankton/fibers,93
+lpom,/DATA_init/plankton_datasets/MicroL/nonplankton/pom/lpom,94
+lugol pom,/DATA_init/plankton_datasets/MicroL/nonplankton/pom/lugol pom,95
+dmpom,/DATA_init/plankton_datasets/MicroL/nonplankton/pom/mpom/dmpom,96
+lmpom,/DATA_init/plankton_datasets/MicroL/nonplankton/pom/mpom/lmpom,97
+ndpom,/DATA_init/plankton_datasets/MicroL/nonplankton/pom/ndpom,98
+nlpom,/DATA_init/plankton_datasets/MicroL/nonplankton/pom/nlpom,99
+npom,/DATA_init/plankton_datasets/MicroL/nonplankton/pom/npom,100
+spom,/DATA_init/plankton_datasets/MicroL/nonplankton/pom/spom,101
