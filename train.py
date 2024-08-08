@@ -6,7 +6,7 @@ with open('config.json', 'r') as file:
 DATA_init = config_info["DATA_init"]
 #DATA_init = '/DATA_init/' #Location where plankton datasets are located. For instance, "DATA_init+'plankton_data/MicroS/'" should be the path of the MicroS dataset.
 FOLDER_init = config_info["FOLDER_init"]
-#FOLDER_init = '/FOLDER_init/' #Location where this repogistory "Inspecting_Hierarchies_ML" is located.
+#FOLDER_init = '/FOLDER_init/' #Location where this repogistory "ProxyDR" is located.
 
 
 import argparse
@@ -71,8 +71,8 @@ if params.dataset in ['MesoZ']:
 else:
     gray = False
     
-plk_info = pd.read_csv(FOLDER_init+'Inspecting_Hierarchies_ML/'+params.dataset+'_info.csv')
-plk_cls = pd.read_csv(FOLDER_init+'Inspecting_Hierarchies_ML/'+params.dataset+'_cls.csv')
+plk_info = pd.read_csv(FOLDER_init+'ProxyDR/'+params.dataset+'_info.csv')
+plk_cls = pd.read_csv(FOLDER_init+'ProxyDR/'+params.dataset+'_cls.csv')
     
 N= len(plk_info) #Number of images
 
@@ -166,8 +166,8 @@ class PlanktonDataset(Dataset):
     def __len__(self):
         return len(self.plk_info)
 
-plk_dataset = PlanktonDataset(info_path=FOLDER_init+'Inspecting_Hierarchies_ML/'+params.dataset+'_info.csv', 
-                              cls_path=FOLDER_init+'Inspecting_Hierarchies_ML/'+params.dataset+'_cls.csv',transform=None, size_inform= params.size_inform)
+plk_dataset = PlanktonDataset(info_path=FOLDER_init+'ProxyDR/'+params.dataset+'_info.csv', 
+                              cls_path=FOLDER_init+'ProxyDR/'+params.dataset+'_cls.csv',transform=None, size_inform= params.size_inform)
 if params.use_val:
     train_set, val_set, test_set = torch.utils.data.random_split(plk_dataset, lengths=[N_train, N_val, N_test], generator=torch.Generator().manual_seed(params.seed)) 
 else:

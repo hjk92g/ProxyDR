@@ -5,7 +5,7 @@ with open('config.json', 'r') as file:
 
 #DATA_init: not used for this code
 FOLDER_init = config_info["FOLDER_init"]
-#FOLDER_init = '/FOLDER_init/' #Location where this repogistory "Inspecting_Hierarchies_ML" is located.
+#FOLDER_init = '/FOLDER_init/' #Location where this repogistory "ProxyDR" is located.
 
 import argparse
 
@@ -70,8 +70,8 @@ if params.small:
 gray = False
     
     
-data_info = pd.read_csv(FOLDER_init+'Inspecting_Hierarchies_ML/'+params.dataset+'_info.csv')
-data_cls = pd.read_csv(FOLDER_init+'Inspecting_Hierarchies_ML/nabirds_cls2.csv',delimiter='|')
+data_info = pd.read_csv(FOLDER_init+'ProxyDR/'+params.dataset+'_info.csv')
+data_cls = pd.read_csv(FOLDER_init+'ProxyDR/nabirds_cls2.csv',delimiter='|')
  
 N= len(data_info) #Number of images: 48562
 
@@ -195,8 +195,8 @@ class NabirdsDataset(Dataset):
     def __len__(self):
         return len(self.data_info)
 
-nabirds_dataset = NabirdsDataset(info_path=FOLDER_init+'Inspecting_Hierarchies_ML/'+params.dataset+'_info.csv', 
-                              cls_path=FOLDER_init+'Inspecting_Hierarchies_ML/'+params.dataset+'_cls.csv',transform=None)
+nabirds_dataset = NabirdsDataset(info_path=FOLDER_init+'ProxyDR/'+params.dataset+'_info.csv', 
+                              cls_path=FOLDER_init+'ProxyDR/'+params.dataset+'_cls.csv',transform=None)
 if params.use_val:
     train_set, val_set, test_set = torch.utils.data.random_split(nabirds_dataset, lengths=[N_train, N_val, N_test], generator=torch.Generator().manual_seed(params.seed)) 
 else:

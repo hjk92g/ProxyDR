@@ -5,7 +5,7 @@ with open('config.json', 'r') as file:
 
 #DATA_init: not used for this code
 FOLDER_init = config_info["FOLDER_init"]
-#FOLDER_init = '/FOLDER_init/' #Location where this repogistory "Inspecting_Hierarchies_ML" is located.
+#FOLDER_init = '/FOLDER_init/' #Location where this repogistory "ProxyDR" is located.
 
 import argparse
 
@@ -67,7 +67,7 @@ if params.small:
     
 gray = False
     
-data_cls = pd.read_csv(FOLDER_init+'Inspecting_Hierarchies_ML/CIFAR100_cls.csv')
+data_cls = pd.read_csv(FOLDER_init+'ProxyDR/CIFAR100_cls.csv')
     
 
 N_test =10000 #16.667%
