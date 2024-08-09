@@ -890,7 +890,7 @@ def plot_conf_acc(conf, pred, labels, bins=10+ 1,mode='equal'):
     print('MCE:',np.max(np.abs(accs-conf_avg)))
     print(spearmanr(mns,accs))
 
-plot_conf_acc(conf_np, pred_np, labels_np, bins=15, mode='equal') #bins=15+1
+###plot_conf_acc(conf_np, pred_np, labels_np, bins=15, mode='equal') #bins=15+1
 print('\n\n')
 sys.stdout.flush()
 
@@ -992,11 +992,36 @@ euc = (2*(1-torch.clip(cos_sim,-1,1)))**0.5 #Euclidean distance
 euc = euc.detach().cpu().numpy()
 arccos=arccos.detach().cpu().numpy()
 
+###From "Hyperspherical Prototype Networks" paper
+M_mat = cos_sim - 2. * torch.diag(torch.diag(cos_sim))
+L_HP = M_mat.max(dim=1)[0]
+L_HP = L_HP.mean().item()
+sep=M_mat.max().item()
+print('L_HP (W): {:.6f}, sep: {:.6f}'.format(L_HP,sep))
+
+Mean_Resultant_Norm_W = torch.norm(torch.mean(W,dim=0, keepdim=True), dim=1)
+Mean_Resultant_Norm_W = Mean_Resultant_Norm_W.detach().cpu().numpy()[0]
+print('Mean_Resultant_Norm (W): {:.6f}'.format(Mean_Resultant_Norm_W))
+L_unif_W=torch.logsumexp(input=1.0*torch.matmul(W, W.T),dim=(0, 1))
+L_unif_W = L_unif_W.detach().cpu().numpy()
+print('L_unif (W): {:.6f}'.format(L_unif_W))
+
+Mean_Resultant_Norm_proto = torch.norm(torch.mean(model.proto,dim=0, keepdim=True), dim=1)
+Mean_Resultant_Norm_proto = Mean_Resultant_Norm_proto.detach().cpu().numpy()[0]
+print('Mean_Resultant_Norm (proto): {:.6f}'.format(Mean_Resultant_Norm_proto))
+L_unif_proto=torch.logsumexp(input=1.0*torch.matmul(model.proto, model.proto.T),dim=(0, 1))
+L_unif_proto = L_unif_proto.detach().cpu().numpy()
+print('L_unif (proto): {:.6f}'.format(L_unif_proto),'\n')
+
+
+
 proto = model.proto.detach().cpu().numpy()
 
 cos_sim_proto = np.matmul(proto, proto.transpose())
-arccos_proto = np.arccos(np.clip(cos_sim_proto,-1,1))
 euc_proto = (2*(1-np.clip(cos_sim_proto,-1,1)))**0.5#Euclidean distance
+arccos_proto = np.arccos(np.clip(cos_sim_proto,-1,1))
+
+
 
 classes = list(data_cls['Class'])
 classes = [cls.replace(' ','_') for cls in classes]
@@ -1006,7 +1031,57 @@ for i in range(len(arccos)):
     arccos_proto[i,i]=0
     euc_proto[i,i]=0
     
-    
+
+#print('arccos.shape',arccos.shape) #(100, 100)
+#log_file = open(model_PATH_.replace('models_'+DATA_TAG+'/','record/'+DATA_TAG+'_')+'_eval.txt','w')
+euc_up = euc[np.triu_indices(len(euc),k=1)]
+arccos_up = arccos[np.triu_indices(len(arccos),k=1)]
+
+plt.figure(figsize=(10, 7))
+plt.hist(arccos_up, bins=64, color='blue', alpha=0.7, density=True)
+pdf, bins, _ = plt.hist(arccos_up, bins=64, color='blue', alpha=0.7, density=True)
+plt.plot([np.pi/2,np.pi/2],[0,np.max(pdf)],'k--')
+plt.title('arccos(W,W)')
+plt.xlim([0,np.pi])
+if last:
+    plt.savefig(model_PATH_.replace('models_' + DATA_TAG + '/', 'record/' + DATA_TAG + '_') + '_last_arccos', dpi=200)
+else:
+    plt.savefig(model_PATH_.replace('models_'+DATA_TAG+'/','record/'+DATA_TAG+'_')+'_arccos',dpi=200)
+#plt.show()
+plt.close()
+print('euc(W,W) mean: {:.6f}, std: {:.6f}'.format(np.mean(euc_up),np.std(euc_up)))
+print('arccos(W,W) min: {:.6f}, max: {:.6f}'.format(np.min(arccos_up),np.max(arccos_up)))###Note arccos(W,W) min:=arccos(sep)
+print('arccos(W,W) mean: {:.6f}, std: {:.6f}'.format(np.mean(arccos_up),np.std(arccos_up)))
+print('arccos(W,W) sum: {:.6f}, sq_sum: {:.6f}'.format(np.sum(arccos_up),np.sum(arccos_up**2)))
+
+
+
+#np.save(model_PATH_.replace('models_'+DATA_TAG+'/','record/'+DATA_TAG+'_')+'_W',W.detach().cpu().numpy())
+
+
+
+#print('arccos_proto.shape',arccos_proto.shape) #(100, 100)
+euc_proto_up = euc[np.triu_indices(len(euc_proto),k=1)]
+arccos_proto_up = arccos_proto[np.triu_indices(len(arccos_proto),k=1)]
+
+plt.figure(figsize=(10, 7))
+plt.hist(arccos_proto_up, bins=64, color='blue', alpha=0.7, density=True)
+pdf, bins, _ = plt.hist(arccos_proto_up, bins=64, color='blue', alpha=0.7, density=True)
+plt.plot([np.pi/2,np.pi/2],[0,np.max(pdf)],'k--')
+plt.title('arccos(proto,proto)')
+plt.xlim([0,np.pi])
+if last:
+    plt.savefig(model_PATH_.replace('models_' + DATA_TAG + '/', 'record/' + DATA_TAG + '_') + '_last_arccos_proto', dpi=200)
+else:
+    plt.savefig(model_PATH_.replace('models_'+DATA_TAG+'/','record/'+DATA_TAG+'_')+'_arccos_proto',dpi=200)
+#plt.show()
+plt.close()
+print('euc(proto,proto) mean: {:.6f}, std: {:.6f}'.format(np.mean(euc_proto_up),np.std(euc_proto_up)))
+print('arccos(proto,proto) min: {:.6f}, max: {:.6f}'.format(np.min(arccos_proto_up),np.max(arccos_proto_up)))
+print('arccos(proto,proto) mean: {:.6f}, std: {:.6f}'.format(np.mean(arccos_proto_up),np.std(arccos_proto_up)))
+print('arccos(proto,proto) sum: {:.6f}, sq_sum: {:.6f}'.format(np.sum(arccos_proto_up),np.sum(arccos_proto_up**2)))
+
+
 if dist=='arccos':
     dm = DistanceMatrix(arccos, classes)
 elif dist=='euc':
