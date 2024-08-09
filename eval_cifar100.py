@@ -992,7 +992,7 @@ euc = (2*(1-torch.clip(cos_sim,-1,1)))**0.5 #Euclidean distance
 euc = euc.detach().cpu().numpy()
 arccos=arccos.detach().cpu().numpy()
 
-###From "Hyperspherical Prototype Networks" paper
+#L_HP is from the paper "Hyperspherical Prototype Networks"
 M_mat = cos_sim - 2. * torch.diag(torch.diag(cos_sim))
 L_HP = M_mat.max(dim=1)[0]
 L_HP = L_HP.mean().item()
@@ -1002,6 +1002,7 @@ print('L_HP (W): {:.6f}, sep: {:.6f}'.format(L_HP,sep))
 Mean_Resultant_Norm_W = torch.norm(torch.mean(W,dim=0, keepdim=True), dim=1)
 Mean_Resultant_Norm_W = Mean_Resultant_Norm_W.detach().cpu().numpy()[0]
 print('Mean_Resultant_Norm (W): {:.6f}'.format(Mean_Resultant_Norm_W))
+#L_unif is from the paper "Hubs and Hyperspheres: Reducing Hubness and Improving Transductive Few-shot Learning with Hyperspherical Embeddings"
 L_unif_W=torch.logsumexp(input=1.0*torch.matmul(W, W.T),dim=(0, 1))
 L_unif_W = L_unif_W.detach().cpu().numpy()
 print('L_unif (W): {:.6f}'.format(L_unif_W))
