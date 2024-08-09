@@ -2,13 +2,16 @@
 Code for the paper ["ProxyDR: Deep Hyperspherical Metric Learning with Distance Ratio-Based Formulation"](https://arxiv.org/abs/2301.11065)
 
 ## Environment
- - Python3
+ - Python3.8
  - PyTorch (http://pytorch.org/) (gpytorch 1.4.1)
  - NumPy (version 1.19.5)
  - Pandas (version 1.0.5)
  - Scikit-learn (version 0.24.2)
  - SciPy (version 1.5.0)
  - Biopython (version 1.79)
+ - Json5 (version 0.8.5)
+ - scikit-bio
+ - ete3
 
 ## Preparing datasets
 ### CIFAR-100
