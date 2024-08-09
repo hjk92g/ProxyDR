@@ -3,6 +3,7 @@ Code for the paper ["ProxyDR: Deep Hyperspherical Metric Learning with Distance 
 
 ## Environment
  - Python3.8
+ - (For conda environment installations, you can follow the commands in `conda_installation.txt`)
  - PyTorch (http://pytorch.org/) (gpytorch 1.4.1)
  - NumPy (version 1.19.5)
  - Pandas (version 1.0.5)
@@ -12,7 +13,6 @@ Code for the paper ["ProxyDR: Deep Hyperspherical Metric Learning with Distance 
  - Json5 (version 0.8.5)
  - scikit-bio
  - ete3
- - For conda environment installations, you can follow the commands in `conda_installation.txt`
 
 ## Preparing datasets
 ### CIFAR-100
