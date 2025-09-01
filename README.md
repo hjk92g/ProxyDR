@@ -1,5 +1,5 @@
 # ProxyDR
-Code for the paper ["ProxyDR: Deep Hyperspherical Metric Learning with Distance Ratio-Based Formulation"](https://sites.google.com/view/hyeongjikim/home#h.6exdllvw3a36)
+Code for the paper ["ProxyDR: Deep Hyperspherical Metric Learning with Distance Ratio-Based Formulation"](https://doi.org/10.1007/978-3-031-91585-7_26)
 
 ## Environment
  - Python3.8
